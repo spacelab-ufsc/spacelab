@@ -39,7 +39,7 @@
 
 ## Overview
 
-SpaceLab brings together research groups, from different centers and departments at UFSC (Federal University of Santa Catarina, Brazil). Spacelab’s team conducts research and development activities in space systems in general, aiming to make space more accessible not only to the scientific community but also to the industry. Featured missions include FloripaSat-1 and GOLDS-UFSC.
+SpaceLab brings together research groups, from different centers and departments at UFSC (Federal University of Santa Catarina, Brazil). Spacelab’s team conducts research and development activities in space systems in general, aiming to make space more accessible not only to the scientific community but also to the industry. Featured missions include FloripaSat-1, GOLDS-UFSC, and GOMX-5.
 
 ## Missions
 
