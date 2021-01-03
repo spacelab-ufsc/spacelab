@@ -31,7 +31,8 @@
   	<a href="#competitions">Competitions</a> •
   	<a href="#team">Team</a> •
   	<a href="#partners">Partners</a> •
-  	<a href="#licenses">Licenses</a>
+  	<a href="#versioning">Versioning</a> •
+    <a href="#licenses">Licenses</a>
 </p>
 
 ![banner](https://github.com/spacelab-ufsc/spacelab/blob/master/figures/banner.jpg)
@@ -100,6 +101,16 @@ In order to train the next generation of undergraduate students for future oppor
 ## Partners
 
 Refer to the [SpaceLab partners page](https://spacelab.ufsc.br/en/people/). 
+
+## Versioning
+
+The repositories have different versions depending on the development efforts and duration. Then, it is important to refer to the documentation (in the mission repository, for example) which versions are compatible with the all the modules and subsystems. The scheme followed try to minimize errors and misunderstandings by synchronizing macro versions within a mission using releases and presentend simple version and status badges. The main versioning system is the GitHub release feature itself, giving the status badges only a quick overview of the project for external viewers. For example, each module within the GOLDS-UFSC mission follows a vX.Y.Z versioning scheme, in which Z determines minor self contained changes, Y sets relevant amount of changes or important checkpoints, and X major mission checkpoints. In this case, the flight version might be a v1.0.0 or higher. As aforesaid, the badges are only used for quick status verification and uses the following structure:
+
+<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/status-flight%20ready-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/status-in--orbit%20validated-blue?style=for-the-badge">
+
 
 ## Licenses
 
