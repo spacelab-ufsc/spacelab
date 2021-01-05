@@ -72,13 +72,6 @@ This CubeSat mission is a second generation development, which uses the FloripaS
 - [MEC](https://github.com/spacelab-ufsc/golds-ufsc-mechanical) (Mechanical assembly)
 - [FlatSat](https://github.com/spacelab-ufsc/flatsat-platform)
 - [Decoder](https://github.com/spacelab-ufsc/spacelab-decoder) (SpaceLab Packet Decoder)
-- [Payload EDC OBC driver](https://github.com/spacelab-ufsc/edc-obc-driver)
-- [Payload EDC Firmware](https://github.com/spacelab-ufsc/edc-firmware)
-- [Payload EDC Hardware](https://github.com/spacelab-ufsc/edc-hardware)
-- [Payload EDC Test](https://github.com/spacelab-ufsc/edc-test)
-- [Payload EDC Core](https://github.com/spacelab-ufsc/edc-core)
-- [Payload EDC Model](https://github.com/spacelab-ufsc/edc-model)
-- [Payload EDC Doc](https://github.com/spacelab-ufsc/edc-doc)
 
 ## Projects
 
@@ -104,7 +97,7 @@ Refer to the [SpaceLab partners page](https://spacelab.ufsc.br/en/people/).
 
 ## Versioning
 
-The repositories have different versions depending on the development efforts and duration. Then, it is important to refer to the documentation (in the mission repository, for example) which versions are compatible with the all the modules and subsystems. The scheme followed try to minimize errors and misunderstandings by synchronizing macro versions within a mission using releases and presentend simple version and status badges. The main versioning system is the GitHub release feature itself, giving the status badges only a quick overview of the project for external viewers. For example, each module within the GOLDS-UFSC mission follows a vX.Y.Z versioning scheme, in which Z determines minor self contained changes, Y sets relevant amount of changes or important checkpoints, and X major mission checkpoints. In this case, the flight version might be a v1.0.0 or higher. As aforesaid, the badges are only used for quick status verification and uses the following structure:
+The repositories have different versions depending on the development efforts and duration. Then, it is important to refer to the documentation (in the mission repository, for example) which versions are compatible with all the modules and subsystems. The scheme followed try to minimize errors and misunderstandings by synchronizing macro versions within a mission using releases and presentend simple version and status badges. The main versioning system is the GitHub release feature itself, giving the status badges only a quick overview of the project for external viewers. For example, each module within the GOLDS-UFSC mission follows a vX.Y.Z versioning scheme, in which Z determines minor self contained changes, Y sets relevant amount of changes or important checkpoints, and X major mission checkpoints. In this case, the flight version might be a v1.0.0 or higher. As aforesaid, the badges are only used for quick status verification and uses the following structure:
 
 <img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 <img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
@@ -114,4 +107,4 @@ The repositories have different versions depending on the development efforts an
 
 ## Licenses
 
-The SpaceLab follows a strong open-source approach in order to encourage and promote knowledge. Then, refer to the LICENSE file in the GitHub page for each repository. In general, the licenses used are GPLv3 for firmware/software, CERN-OHL-S v2 for hardware, and CC-BY-SA-4.0 for documents. Please, double check licenses and third-part components used with other licenses, since restrictions might apply.
+The SpaceLab follows a strong open-source approach in order to encourage and promote knowledge. Then, refer to the LICENSE file in the GitHub page for each repository. In general, the licenses used are GPLv3 for firmware/software, CERN OHL-S v2 for hardware, and CC-BY-SA-4.0 for documents. Please, double check licenses and third-part components used with other licenses, since restrictions might apply.
