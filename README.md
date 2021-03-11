@@ -39,13 +39,13 @@
 
 ## Overview
 
-SpaceLab brings together several research groups from the Federal University of Santa Catarina (UFSC), Brazil. The different groups conduct research and development activities in space systems in general, aiming to make space more accessible not only to the scientific community but also to the industry. Featured missions include FloripaSat-1, GOLDS-UFSC, and GOMX-5.
+SpaceLab brings together several research groups from the Federal University of Santa Catarina (UFSC), Brazil. The different groups conduct research and development activities in space systems in general, aiming to make space more accessible not only to the scientific community but also to the industry. Featured missions include FloripaSat-1, FloripaSat-2, and GOMX-5.
 
 This organization combines repositories for different projects, files and documents. The following sections briefly describes the main repositories and their relation to the SpaceLab's major space campaigns.
 
 ## Missions
 
-SpaceLab has complete CubeSat space missions developed in-house under open-source licenses: [FloripaSat-1](https://floripasat.ufsc.br/), an 1U CubeSat, and [GOLDS-UFSC](http://golds.ufsc.br/), a 2U CubeSat.
+SpaceLab has complete CubeSat space missions developed in-house under open-source licenses: [FloripaSat-1](https://floripasat.ufsc.br/), an 1U CubeSat, and [FloripaSat-2](http://floripasat.ufsc.br/), a 2U CubeSat.
 
 #### FloripaSat-1
 This CubeSat mission was the first attempt to develop a complete satellite mission in-house (with some COTS subsystems). The service modules were designed and developed by the SpaceLab team, which started with prototype versions until the actual flight model. The original GitHub organization used in this mission was the [FloripaSat](https://github.com/floripasat), but it was descontinued in order to accomodate all SpaceLab projects in the same place. The mission repositories and related projects in this organization are:
@@ -58,10 +58,10 @@ This CubeSat mission was the first attempt to develop a complete satellite missi
 - [Decoder](https://github.com/spacelab-ufsc/spacelab-decoder) (SpaceLab Packet Decoder)
 - [DOC](https://github.com/spacelab-ufsc/floripasat-doc) (Some documentation files)
 
-#### GOLDS-UFSC
+#### FloripaSat-2
 This CubeSat mission is a second generation development, which uses the FloripaSat-1 core and flight heritage. The mission consists of a 2U CubeSat designed in-house (with some COTS subsystems). The following repositories includes all the avaliable sources:
 
-- [DOC](https://github.com/spacelab-ufsc/golds-ufsc-doc) (Mission documentation)
+- [DOC](https://github.com/spacelab-ufsc/floripasat2-doc) (Mission documentation)
 - [OBDH 2.0](https://github.com/spacelab-ufsc/obdh2) (On-Board Data Handling module 2.0)
 - [EPS 2.0](https://github.com/spacelab-ufsc/eps2) (Electrical Power System module 2.0)
 - [TTC](https://github.com/spacelab-ufsc/ttc) (Telemetry, Tracking and Command module)
@@ -69,7 +69,7 @@ This CubeSat mission is a second generation development, which uses the FloripaS
 - [GRS](https://github.com/spacelab-ufsc/grs) (Ground Station Firmware)
 - [PC-104 Adapter](https://github.com/spacelab-ufsc/pc104-adapter)
 - [Interface Modules](https://github.com/spacelab-ufsc/interface-board)
-- [MEC](https://github.com/spacelab-ufsc/golds-ufsc-mechanical) (Mechanical assembly)
+- [MEC](https://github.com/spacelab-ufsc/floripasat2-mechanical) (Mechanical assembly)
 - [FlatSat](https://github.com/spacelab-ufsc/flatsat-platform)
 - [Decoder](https://github.com/spacelab-ufsc/spacelab-decoder) (SpaceLab Packet Decoder)
 
@@ -97,7 +97,7 @@ Refer to the [SpaceLab partners page](https://spacelab.ufsc.br/en/people/).
 
 ## Versioning
 
-The repositories have different versions depending on the development efforts and duration. Then, it is important to refer to the documentation (in the mission repository, for example) which versions are compatible with all the modules and subsystems. The scheme followed try to minimize errors and misunderstandings by synchronizing macro versions within a mission using releases and presentend simple version and status badges. The main versioning system is the GitHub release feature itself, giving the status badges only a quick overview of the project for external viewers. For example, each module within the GOLDS-UFSC mission follows a vX.Y.Z versioning scheme, in which Z determines minor self contained changes, Y sets relevant amount of changes or important checkpoints, and X major mission checkpoints. In this case, the flight version might be a v1.0.0 or higher. As aforesaid, the badges are only used for quick status verification and uses the following structure:
+The repositories have different versions depending on the development efforts and duration. Then, it is important to refer to the documentation (in the mission repository, for example) which versions are compatible with all the modules and subsystems. The scheme followed try to minimize errors and misunderstandings by synchronizing macro versions within a mission using releases and presentend simple version and status badges. The main versioning system is the GitHub release feature itself, giving the status badges only a quick overview of the project for external viewers. For example, each module within the FloripaSat-2 mission follows a vX.Y.Z versioning scheme, in which Z determines minor self contained changes, Y sets relevant amount of changes or important checkpoints, and X major mission checkpoints. In this case, the flight version might be a v1.0.0 or higher. As aforesaid, the badges are only used for quick status verification and uses the following structure:
 
 <img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 <img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
