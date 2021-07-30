@@ -93,8 +93,12 @@ Comments on source code should emphasize why the code is there. A programmer rea
 
 ## Variable Naming
 
-.
+All variables must be declared in lower case letters and separated by an underline character when have multiple words:
+
+```
+int variable_example = 0;
+```
 
 ## Coding Standards
 
-.
+The [JPL Institutional Coding Standard for the C Programming Language](https://yurichev.com/mirrors/C/JPL_Coding_Standard_C.pdf) is the preferable coding standard, it is based on the automotive standard [MISRA-C:2004](https://www.misra.org.uk/product/misra-c2004/) with some modifications and additional remarks.
