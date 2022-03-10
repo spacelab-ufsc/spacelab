@@ -106,3 +106,11 @@ Any source file must be indented with **four spaces** instead of a single tab ch
 ## Coding Standards
 
 The [JPL Institutional Coding Standard for the C Programming Language](https://yurichev.com/mirrors/C/JPL_Coding_Standard_C.pdf) is the preferable coding standard, it is based on the automotive standard [MISRA-C:2004](https://www.misra.org.uk/product/misra-c2004/) with some modifications and additional remarks.
+
+## Git Flow
+
+Git is used as the version control tool, not only for software development but also for hardware development and documentation writing. The used branches scheme is ilustraded in the figure below:
+
+![git-flow](https://github.com/spacelab-ufsc/spacelab/blob/master/figures/git-flow.png)
+
+There are few long-term branches designated to accommodate changes from each segment of the project, in which the "dev_[segment]" branches are used for the regular development, "dev" is used to stage periodic change packages, and "master" is the production branch. Then, after a reasonable amount of regular commits or finished features, the stage branch receives the merges from the development ones. The production branch only receives tested and stable merges from the stage branch. In order to avoid improper versioning, only the repository administrators have permissions to perform merges to the production branch, and, in general, a pull request is created, awaiting the other administrators' approval for a given release. New releases are just created when predefined goals are met, and if the current code presented in the master branch passes all the tests.
